@@ -1,0 +1,6 @@
+{
+  "name": "Google Test",
+  "project_name": "{{ cookiecutter.name|lower|replace(' ', '_') }}",
+  "driver": "Chrome",
+  "url": "https://example.com"
+}
