@@ -1,6 +1,7 @@
 {
   "name": "Google Test",
   "project_name": "{{ cookiecutter.name|lower|replace(' ', '_') }}",
-  "test_name": "Test YML".lower().replace(" ","_")
+  "test": "Test YML",
+  "test_name": "{{cookiecutter.test|lower|replace(' ', '_') }}",
   "driver": "Chrome",
 }
