@@ -4,6 +4,5 @@
   "test": "test_testname",
   "test_name": "{{cookiecutter.test|lower|replace(' ', '_') }}",
   "base_url": "https://example.com",
-  "github_username": "octocat",
-  "github_repository": "{{ cookiecutter.name|lower|replace(' ', '-') }}"
+  "global_step_wait": "0"
 }
