@@ -3,5 +3,5 @@
   "project_name": "{{ cookiecutter.name|lower|replace(' ', '_') }}",
   "test_name": "test name from yml file",
   "test": "{{cookiecutter.test|lower|replace(' ', '_') }}",
-  "global_step_wait": "0",
+  "global_step_wait": "Enter test step wait",
 }
